@@ -28,32 +28,7 @@ A Python-based library management system built using Tkinter for the GUI and int
 - Python 3.x
 - Microsoft SQL Server (locally or remotely hosted)
 
-### Steps
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/Haran29/Library-Management-System.git
-    ```
-
-2. **Navigate to the project directory**:
-    ```bash
-    cd Library-Management-System
-    ```
-
-3. **Install required Python libraries**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Set up the database**:
-    - Ensure Microsoft SQL Server is running and accessible.
-    - Create a database named `library_management`.
-    - Modify the `config.py` file to include the correct connection details (host, database name, user, password).
-
-5. **Run the application**:
-    ```bash
-    python main.py
-    ```
 
 ## Usage
 
