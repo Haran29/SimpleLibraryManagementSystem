@@ -2,15 +2,6 @@
 
 A Python-based library management system built using Tkinter for the GUI and integrated with Microsoft SQL Server for data storage. The system helps manage books, users, and borrowing records, making it easy for libraries to maintain and track their collections.
 
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
