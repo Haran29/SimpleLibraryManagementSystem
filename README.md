@@ -72,11 +72,7 @@ A Python-based library management system built using Tkinter for the GUI and int
 5. **Search**:
     - Use the search bar to quickly find books or users.
 
-## Screenshots
 
-![Library Management System](path-to-screenshot.png)
-
-_Replace "path-to-screenshot.png" with an actual image path or remove this section if not needed._
 
 ## Contributing
 
