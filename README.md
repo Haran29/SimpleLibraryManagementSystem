@@ -1,47 +1,100 @@
-Library Management System
-A user-friendly library management system built with Python's Tkinter library and integrated with a Microsoft SQL Server database. The system helps manage books, users, and borrowing records, making it easier for libraries to keep track of their inventory and lend books efficiently.
+# Library Management System
 
-Features
-Book Management: Add, update, and delete books in the library.
-User Management: Add, update, and delete user profiles.
-Borrowing System: Track which books are borrowed and by whom.
-Search Functionality: Easily search for books and users.
-Database Integration: Utilizes Microsoft SQL Server for data storage.
-Tech Stack
-Frontend: Tkinter (GUI framework)
-Backend: Python
-Database: Microsoft SQL Server
-Installation
-Clone this repository to your local machine:
+A Python-based library management system built using Tkinter for the GUI and integrated with Microsoft SQL Server for data storage. The system helps manage books, users, and borrowing records, making it easy for libraries to maintain and track their collections.
 
-bash
-Copy
-Edit
-git clone https://github.com/Haran29/Library-Management-System.git
-Install required dependencies:
+## Table of Contents
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set up the Microsoft SQL Server database. You may need to create a database and configure your connection settings in the config.py file.
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-Run the application:
+## Features
 
-bash
-Copy
-Edit
-python main.py
-Screenshots
+- **Book Management**: Add, update, and delete books in the library.
+- **User Management**: Add, update, and delete users.
+- **Borrowing System**: Track books that have been borrowed and return dates.
+- **Search Functionality**: Search for books or users in the system.
+- **Database Integration**: Connects to a Microsoft SQL Server database for data persistence.
 
-Usage
-Launch the application to open the main window.
-Navigate through the different tabs to manage books, users, and borrowing records.
-Use the search bar to quickly find books or users.
-To add a new book or user, simply click the respective button and fill out the form.
-Contributing
-Fork the repository.
-Create a new branch for your changes (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add new feature').
-Push to your fork (git push origin feature-branch).
-Open a pull request.
+## Tech Stack
+
+- **Frontend**: Tkinter (GUI framework)
+- **Backend**: Python
+- **Database**: Microsoft SQL Server
+- **Libraries**:
+  - `tkinter` for the GUI
+  - `pyodbc` for connecting to SQL Server
+  - Other required libraries in `requirements.txt`
+
+## Installation
+
+### Prerequisites
+
+- Python 3.x
+- Microsoft SQL Server (locally or remotely hosted)
+
+### Steps
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Haran29/Library-Management-System.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd Library-Management-System
+    ```
+
+3. **Install required Python libraries**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Set up the database**:
+    - Ensure Microsoft SQL Server is running and accessible.
+    - Create a database named `library_management`.
+    - Modify the `config.py` file to include the correct connection details (host, database name, user, password).
+
+5. **Run the application**:
+    ```bash
+    python main.py
+    ```
+
+## Usage
+
+1. **Launch the application**: 
+    - Run the `main.py` script to open the Tkinter-based GUI.
+   
+2. **Add Books**:
+    - Navigate to the "Books" section and add new books to the library.
+
+3. **Manage Users**:
+    - Add, modify, or remove user profiles for borrowers.
+
+4. **Track Borrowed Books**:
+    - Keep track of books that are borrowed and their respective due dates.
+
+5. **Search**:
+    - Use the search bar to quickly find books or users.
+
+## Screenshots
+
+![Library Management System](path-to-screenshot.png)
+
+_Replace "path-to-screenshot.png" with an actual image path or remove this section if not needed._
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add feature'`).
+4. Push to your fork (`git push origin feature-branch`).
+5. Create a pull request detailing your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
